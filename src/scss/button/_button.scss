@@ -1,0 +1,31 @@
+.sc-ifAKCX {
+  cursor: pointer;
+
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 4px;
+
+  // Primary
+  &.eWaXVo {
+    color: #ffffff;
+    background-color: #325bca;
+    border: solid 1px #325bca;
+
+    &:hover {
+      background-color: #0e35a0;
+      border: solid 1px #0e35a0;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      pointer-events: all;
+      color: #b9baca;
+      background-color: #f8f8fa;
+      border-radius: 4px;
+      border: solid 1px #cacfd8;
+    }
+  }
+}
